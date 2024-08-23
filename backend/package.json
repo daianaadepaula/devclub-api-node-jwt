@@ -1,0 +1,17 @@
+{
+	"name": "API Node com JWT",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Uma API usando Node Js com autenticação em JWT",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node --watch server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2"
+	}
+}
