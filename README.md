@@ -1,55 +1,55 @@
-# Cadastro de Usuários
+# User Registration
 
-Este projeto é uma aplicação fullstack que permite o cadastro, login e listagem de usuários. Ele utiliza Express, Prisma, MongoDB, JWT para autenticação, além de um frontend em React e tailwind css para interação com os usuários e estilização.
+This project is a fullstack application that allows user registration, login, and listing. It uses Express, Prisma, MongoDB, and JWT for authentication, along with a React frontend and Tailwind CSS for user interaction and styling.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 ### Backend:
 - **Node.js**
 - **Express.js**
 - **Prisma ORM**
 - **MongoDB**
-- **JWT (JSON Web Tokens)** para autenticação
-- **Bcrypt** para hashing de senhas
-
-### Frontend:
-- **React.js** com Hooks
-- **React Router** para roteamento
-- **Tailwind CSS** para estilização
-
-## Funcionalidades
-
-### Backend:
-- **Cadastro de usuários** com hash de senhas.
-- **Login de usuários** com geração de token JWT.
-- **Listagem de usuários** (rota privada, protegida com JWT).
+- **JWT (JSON Web Tokens)** for authentication
+- **Bcrypt** for password hashing
   
 ### Frontend:
-- **Página de Cadastro**: Formulário para registro de novos usuários.
-- **Página de Login**: Autenticação de usuários com geração de token.
-- **Página de Listagem de Usuários**: Exibe a lista de usuários cadastrados (apenas para usuários autenticados).
+- **React.js** with Hooks
+- **React Router** for routing
+- **Tailwind CSS** for styling
 
-## Como Executar o Projeto
+## Features
 
-### Pré-requisitos
-- **Node.js** (v16+)
-- **MongoDB** (ou MongoDB Atlas para banco na nuvem)
-- **Prisma ORM** configurado para MongoDB
-- Variáveis de ambiente configuradas (.env)
+### Backend:
+- **User registration** with password hashing.
+- **User login** with JWT token generation.
+- **User listing** (private route, protected with JWT).
+  
+### Frontend:
+- **Registration Page**: A form for registering new users.
+- **Login Page**: User authentication with token generation.
+- **User Listing Page**: Displays the list of registered users (only for authenticated users).
 
-### Instalação
+## How to Run the Project
 
-1. Clone este repositório:
+### Prerequisites
+- **Node.js** (v20)
+- **MongoDB** (or MongoDB Atlas for cloud database)
+- **Prisma ORM** configured for MongoDB
+- Environment variables configured (.env)
+  
+### Installation
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/daianaadepaula/devclub-api-node-jwt.git
-   cd devclub-api-node-jwt
+   git clone https://github.com/daianaadepaula/user-registration-api-node-jwt.git
+   cd user-registration-api-node-jwt
    
-2. Instale as dependências do backend e do frontend:
+2. Install backend and frontend dependencies:
    ```bash
    npm install
 
    
-3. Inicie o servidor:
+3. Start the server:
    ```bash
    npm run dev
 
